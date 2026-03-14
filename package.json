@@ -4,14 +4,17 @@
   "version": "1.0.0",
   "description": "learning how to use mongoDB",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "scripts": {
+    "start": "node srcindex.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Benkovie",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.4"
   },
   "devDependencies": {
